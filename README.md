@@ -3,6 +3,21 @@ eScroll
 
 Easy Scroller for mobile web app
 
+Useage
+====
+<pre>
+var scroller = new EScroll({
+    element: '#wrapper',
+    isEase: true, // |false
+    lockX: true,
+    lockY: false
+});
+
+scroller.scrollTo(100);
+scroller.setActiveEl('#con1');
+</pre>
+   
+
 Demo
 ====
 try demos on mobile machines
