@@ -113,7 +113,7 @@
             return (y > 0 || y < this.element.offsetHeight - this.element.scrollHeight) ? true : false;
         },
         
-        _onTouchStart: function (e) { alert(6)
+        _onTouchStart: function (e) {
             clearTimeout(this.__fixPosTimer);
             this._isTouching = true;
             this._touchStartY = this._getPage(e, 'pageY');
