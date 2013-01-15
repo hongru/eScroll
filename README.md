@@ -3,7 +3,7 @@ eScroll
 
 Easy Scroller for mobile web app
 
-Useage
+Usage
 ====
 <pre>
 var scroller = new EScroll({
