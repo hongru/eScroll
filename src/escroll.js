@@ -7,7 +7,7 @@
     if (typeof define == 'function') define(definition);
     else if (typeof module != 'undefined') module.exports = definition();
     else this[name] = definition();
-})('jstemplate', function () {  
+})('EScroll', function () {  
     // private methods
     function extend (target, source, isOverwrite) {
         if (isOverwrite == undefined) {
